@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora con Flexbox</title>
+</head>
+
+<style>
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin: 10vh;
+}
+
+.calculator {
+    width: 300px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.display {
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#result {
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    text-align: right;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.zero {
+    width: 150px;
+}
+
+
+</style>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" disabled>
+        </div>
+        <div class="buttons">
+            
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="zero">0</button>
+            <button class="equal">=</button>
+            <button class="operator">+</button>
+            <button class="operator">-</button>
+            <button class="operator">*</button>
+            <button class="operator">/</button>
+            <button class="clear">C</button>
+        
+        </div>
+    </div>
+</body>
+</html>
