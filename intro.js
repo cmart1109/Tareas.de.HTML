@@ -19,3 +19,4 @@ console.log(array[3]) // Para seleccionar un indice //
 console.log(array.length) // Para medir la longitud de un array //
 // La longitud de un array siempre va a ser la cantidad de indices que tenga mas 1, ya que comienza con el 0 //
 console.log(array[4])
+console.log('Esto es todo amigos')
