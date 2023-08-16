@@ -111,4 +111,3 @@ console.log(browserType.slice(0,3))
 // Otros Comandos //
 // Alice, Startwith, Endswith, includes//
 //toLowerCase, toUpperCase//
-
