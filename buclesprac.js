@@ -33,3 +33,28 @@ for(let i=0; i<=notas.length -1; i++) {
 console.log('Pasaron '+pasaron+' estudiantes')
 console.log('No pasaron ' + nopasaron+' estudiantes')
 console.log('Hubieron un total de '+total+' notas')
+
+function recorrerArray(nombre, apellido) {
+    return 'hola '+nombre+' '+apellido
+
+}
+
+recorrerArray()
+
+let funcion = recorrerArray('Christian','Martinez')
+console.log(funcion)
+
+
+//Podemos utilizar una funcion para poder recorrer arrays, solo necesitamos asignarle el for dentro de la funcion especificando para buscar un array
+
+function recorrer(array) {
+    for (let i = 0; i<= array.length - 1; i++) {
+        console.log(array[i])
+    }
+    
+}
+
+recorrer(notas)
+notas.reverse()
+
+console.log(notas)
