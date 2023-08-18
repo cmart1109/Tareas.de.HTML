@@ -43,3 +43,7 @@ for(let m = a.length-1; m >=0; m--) {
 }
 let resultado = invertido.join(' ')
 console.log(resultado)
+
+//============================================
+
+

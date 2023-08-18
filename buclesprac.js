@@ -39,9 +39,8 @@ function recorrerArray(nombre, apellido) {
 
 }
 
-recorrerArray()
 
-let funcion = recorrerArray('Christian','Martinez')
+let funcion = recorrerArray('Christian','Martinez') 
 console.log(funcion)
 
 
